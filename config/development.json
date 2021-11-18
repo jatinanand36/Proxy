@@ -1,0 +1,15 @@
+{
+    "BMS_SERVICE": "https://localhost:4000",
+    "IMS_SERVICE": "https://localhost:5080",
+    "JWT_SECRET": "r(-g@sk-AR(-dgeuvll@otp0ery$er^ic%",
+    "PASSPHRASE": "RGK9876543!",
+    "CERT_PATH": "/home/rskdevadm/SSL-RSK-18JUN20.pfx",
+    "UPLOAD_DOCS_PATH": "/home/rskdevadm/data/uploads/",
+    "APP_URL": ["https://localhost", "http://localhost:4040"],
+    "GMS_SERVICE": "https://localhost:3020",
+    "TAG_SERVICE": "https://localhost:3080",
+    "log": {
+        "level": "debug",
+        "service": "API GateWay Service"
+    }
+}

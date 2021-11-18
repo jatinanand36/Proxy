@@ -1,0 +1,32 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development dist/api.bundle",
+    "dev": "NODE_ENV=development node dist/api.bundle",
+    "staging": "NODE_ENV=staging node dist/api.bundle",
+    "production": "NODE_ENV=production node dist/api.bundle",
+    "demo": "NODE_ENV=demo node dist/api.bundle",
+    "local": "set NODE_ENV=development & node index",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@casl/ability": "^3.0.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.4",
+    "saslprep": "^1.0.3",
+    "execa": "^4.1.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "webpack": "^5.5.0",
+    "webpack-cli": "^4.2.0",
+    "bunyan": "^1.8.14",
+    "webpack-version-file-plugin": "^0.4.0"
+  }
+}
